@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+	<!-- Head tag is used to create a head section of the webpage -->
+	<head>
+
+		<!-- Meta tag is used to give some meta data to the page -->
+		<meta charset="utf-8">
+    	<meta name="description" content="E-commerce webpage for a book store">
+    	<meta name="author" content="Kshitiz Shrestha">
+		
+		<!-- Title tag is used here to give a title to the webpage that is shown at the top left part of the webpage -->
+		<title>BOOKExpress/Product</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+
+		<!-- style tag is used to run some internal css only for this page -->
+		<style type="text/css">
+			.genres_list
+			{
+				font-size: 20px;
+				font-family: "Playfair Display", serif;
+			}
+			.img_style
+			{
+				width: 110px;
+				height: 150px;
+				box-shadow: 4px 4px 2px 2px grey;
+			}
+			.block:hover 
+			{
+				text-decoration: underline;
+				background-color: #ced4da;
+				cursor: pointer;
+			}	    	
+	   	</style>
+	</head>
+
+	<!-- Body tag is used to create a body section of the webpage -->
+	<body>
+		<!-- Div tag is used to separate or define some section of the body -->
+		<div class="slide_text"><div class="slide_text2">
+    		<div class="header">
+    			<p class="header_2">! Welcome to BOOKExpress !</p>   	
+    		</div>
+
+    		<div class="header">
+    			<p class="header_2">! Over thousands of books available !</p>   	
+    		</div>
+
+    		<div class="header">
+    			<p class="header_2">! Fictions, non-fictions, journals, biographies, comics and manga's !</p>   	
+    		</div>
+        </div></div>
+    	
+        <div style="width: 70%; background-color: whitesmoke; margin: auto;">
+        	<button style="float: right; width: 80px; height: 37px; font-size: 16px; font-family: serif;">Search</button>
+	        <input class="search_txt" type="text" name="searchbox" placeholder="Search by author, title, keyword or ISBN"> 
+	        <p class="logo" style="">BOOK<span style="font-style: italic; color: #ffd166;">Express</span></p>	        
+	    </div> 
+	   	
+	   	<!-- Here, the width of the div is kept 70% with auto margin to create some space on either side of the div -->	        
+	    <nav style="text-align: center;">
+	        <div style="background-color: whitesmoke; width: 100%; height: 20px; margin: auto; padding-top: 5px;">
+	            <ul>
+	        		<li class="list_style"><a href="../Home.html" class="list_style_2">Home</a> </li>
+	        		<li class="list_style"><a href="#" class="list_style_2">Products</a></li>
+	        		<li class="list_style"><a href="Blog.html" class="list_style_2">Blog</a></li>
+	        		<li class="list_style"><a href="Research.html" class="list_style_2">Research</a></li>
+	        		<li class="list_style"><a href="Contact.html" class="list_style_2">Contact Us</a></li>    
+	        	</ul>       		
+	        </div>
+	    </nav>
+	    <br><!-- Here, br tag is used to create some space or gap between the contents -->
+	    <hr><!-- hr tag is used to draw a horizontal line on the page and separate the section -->
+	    
+	    <p style="font-family: fantasy; font-size: 40px; text-align: center;" >OUR PRODUCTS</p>
+	    <hr><!-- hr tag is used to draw a horizontal line on the page and separate the section -->
+        
+        <div style="width: 100%; display: flex;">
+        	 <div style="width: 15%; height: 900px; background-color: whitesmoke; ">
+        	 	<p style="font-family: fantasy; font-size: 30px; text-align: center;">Genres</p>
+        	 	<br>
+        	 	<ul>
+        	 		<li class="genres_list">Fiction</li>
+        	 		<li class="genres_list">Non-fiction</li>
+        	 		<li class="genres_list">Comics</li>
+        	 		<li class="genres_list">Mangas</li>
+        	 		<li class="genres_list">Lifestyle/Fashion Magazines</li>
+        	 		<li class="genres_list">Biographies/Auto-biographies</li>
+        	 		<li class="genres_list">Self-Help</li>
+        	 		<li class="genres_list">Kids</li>
+        	 	</ul>       	 	        	 	 	
+	    	</div>
+
+	     	<div style="width: 85%; height: 100%; background-color: whitesmoke; float: right; border-left: 2px solid grey; ">
+	     		<!-- Here, table tag is used to define a table -->
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Fiction</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/f1.jpg" class="img_style" ><p>The Song of Achilles<br>by Madeline Miller  <br><span style="text-decoration: line-through; text-decoration-color: red; ">Rs.720</span>Rs.504</p></th>
+	     					<th class="block"><img src="../images/f2.jpg" class="img_style"><p>It Ends With Us<br>by Colleen Hoover<br>     <span style="text-decoration: line-through; text-decoration-color: red; ">Rs.650</span>Rs.455</p></th>
+	     					<th class="block"><img src="../images/f3.jpg" class="img_style"><p>The Midnight Library<br>by Matt Haig<br>Rs.670</p></th>
+	     					<th class="block"><img src="../images/f4.jpg" class="img_style"><p>The Seven Husbands<br>of Evelyn Hugo<br>by Taylor Jenkins Reid<br><span style="text-decoration: line-through; text-decoration-color: red; ">Rs.760</span>Rs.532</p></th>
+	     					<th class="block"><img src="../images/f5.jpg" class="img_style"><p>Pride and Prejudice<br>by Jane Austen<br>Rs.650</p></th>
+	     					<th class="block"><img src="../images/f6.jpg" class="img_style"><p>The Great Gatsby<br>by F. Scott Fitzerald<br>Rs.540 </p></th>	     					
+	     				</tr>
+	     			</td>
+	     			
+	     		</table>
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Non-fiction</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/n1.jpg" class="img_style"><p>Empire of Pain:<br>The Secret History of the <br>Sackler Dynasty<br>by Patrick Raden Keefe<br>Rs.760</p></th>
+	     					<th class="block"><img src="../images/n2.jpg" class="img_style"><p>In Defence of Witches:<br>Why Women Are Still on Trial<br>by Mona Chollet<br>Rs.420</p></th>
+	     					<th class="block"><img src="../images/n3.jpg" class="img_style"><p>Green Living Made Easy:<br>101 Eco Tips, Hacks and Recipes<br>to Save Time and Money<br>by Nancy Britwhistle<br>Rs.450</p></th>
+	     					<th class="block"><img src="../images/n4.jpg" class="img_style"><p>God: An Anatomy<br>by Francesca Stravrakopoulou<br>Rs.640</p></th>
+	     					<th class="block"><img src="../images/n5.jpg" class="img_style"><p>A Bigger Picture:<br>My Fight to Bring a New African<br>Voice to the Climate Crisis<br>by Vanessa Nakate<br>Rs.580</p></th>
+	     					<th class="block"><img src="../images/n6.jpg" class="img_style"><p>It's Not About the Burqa<br>by Mariam Khan   <br>Rs.430</p></th>	     					
+	     				</tr>
+	     			</td>
+	     			
+	     		</table>
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Comics</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/c1.jpg" class="img_style"><p>Watchmen<br>by Alan Moore<br>Rs.420</p></th>
+	     					<th class="block"><img src="../images/c2.jpg" class="img_style"><p>The Department of Truth,<br>Vol 1: The End of the World<br>by James Tynion IV<br>Rs.500</p></th>
+	     					<th class="block"><img src="../images/c3.jpg" class="img_style"><p>Graveneye<br>by Sloane Leong<br>Rs.420</p>  </th>
+	     					<th class="block"><img src="../images/c4.jpg" class="img_style"><p>All-New,<br>All-Different Avengers,<br>Volume 1: The Magnificent Seven  <br>Rs.380</p></th>
+	     					<th class="block"><img src="../images/c5.jpg" class="img_style"><p>The Nice House on<br>the Lake, Vol. 1<br>by James Tynion IV<br>Rs.360  </p></th>
+	     					<th class="block"><img src="../images/c6.jpg" class="img_style"><p>Oksi<br>by Mari Ahokoivu<br>Rs.350</p></th>
+	     				</tr>
+	     			</td>
+	     			
+	     		</table>
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Mangas</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/m1.jpg" class="img_style"><p>Attack on Titan, Vol. 1<br>By Hajime Isayama <br>Rs.440</p></th>
+	     					<th class="block"><img src="../images/m2.jpg" class="img_style"><p>One Piece,<br>Vol. 1: Romance Dawn<br>by Eiichiro Oda<br>Rs.490</p></th>
+	     					<th><img src="../images/m3.jpg" class="img_style"><p>Jujutsu Kaisen, Vol. 7<br>by Gege Akutami<br>Rs.480</p>    </th>
+	     					<th class="block"><img src="../images/m4.jpg" class="img_style"><p>Death Note,<br>Vol. 1: Boredom<br>Rs.430</p></th>
+	     					<th class="block"><img src="../images/m5.jpg" class="img_style"><p>Berserk, Vol. 1<br>by Kentaro Miura<br>Rs.460</p></th>
+	     					<th class="block"><img src="../images/m6.jpg" class="img_style"><p>Demon Slayer:<br>Kimetsu no Yaiba, Vol. 1<br>by Koyoharu Gotouge<br>Rs.440</p></th>	     					
+	     				</tr>
+	     			</td>
+	     			
+	     		</table>
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Lifestyle/Fashion Magazines</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/l1.jpg" class="img_style"><p>Vanity Fair<br>Rs.620</p></th>
+	     					<th class="block"><img src="../images/l2.jpg" class="img_style"><p>Elite Traveler<br>Rs.720</p></th>
+	     					<th class="block"><img src="../images/l3.jpg" class="img_style"><p>Coveted<br>Rs.760</p></th>
+	     					<th class="block"><img src="../images/l4.jpg" class="img_style"><p>Conde Nast Traveller<br>Rs.660</p></th>
+	     					<th class="block"><img src="../images/l5.jpg" class="img_style"><p>Esquire<br>Rs.750</p></th>
+	     					<th class="block"><img src="../images/l6.jpg" class="img_style"><p>Vogue<br>Rs.770</p></th>	     				
+	     				</tr>
+	     			</td>
+	     			
+	     		</table>
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Biographies/Auto-biographies</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/b1.jpg" class="img_style"><p>Becoming<br>by Michelle Obama<br>Rs.620</p> </th>
+	     					<th class="block"><img src="../images/b2.jpg" class="img_style"><p>Can't Hurt Me:<br>Master Your Mind<br>and Defy the Odds<br>by David Goggins<br>Rs.520  </p></th>
+	     					<th class="block"><img src="../images/b3.jpg" class="img_style"><p>Frida:<br>A Biography of Frida Kahlo<br>by Hayden Herrera<br>Rs.540</p></th>
+	     					<th class="block"><img src="../images/b4.jpg" class="img_style"><p>Steve Jobs<br>by Walter Isaacson<br>Rs.570  </p></th>
+	     					<th class="block"><img src="../images/b5.jpg" class="img_style"><p>The Autobiography<br>of Malcolm X<br>by Malcolm X<br>Rs.670</p></th>
+	     					<th class="block"><img src="../images/b6.jpg" class="img_style"><p>"Surely You're Joking,<br>Mr. Feynman!":<br>Adventures of a<br>Curious Character<br>by Richard P. Feynamn<br>Rs.720</p></th>	     					
+	     				</tr>
+	     			</td>
+	     			
+	     		</table>
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Self-Help</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/s1.jpg" class="img_style"><p>The Subtle Art of<br>Not Giving a F*ck:<br>A Counterintuitive Approach<br>to Living a Good Life<br>by Mark Manson<br>Rs.540</p></th>
+	     					<th class="block"><img src="../images/s2.jpg" class="img_style"><p>Rich Dad, Poor Dad<br>by Robert T. Kiyosaki  <br>Rs.560</p>  </th>
+	     					<th class="block"><img src="../images/s3.jpg" class="img_style"><p>The 7 Habits of<br>Highly Effective People:  <br>Powerful Lessons in<br>Personal Change<br>by Stephen R. Covey<br>Rs.480</p></th>
+	     					<th class="block"><img src="../images/s4.jpg" class="img_style"><p>The 4-Hour Workweek<br>by Timothy Ferris<br>Rs.530</p></th>
+	     					<th class="block"><img src="../images/s5.jpg" class="img_style"><p>The 48 Laws<br>of Power<br>by Robert Greene  <br>Rs.580</p></th>
+	     					<th class="block"><img src="../images/s6.jpg" class="img_style"><p>Atomic Habits:<br>An Easy & Proven Way to<br>Build Good Habits<br>& Break Bad Ones<br>James Clear<br>Rs.650</p></th>	     					
+	     				</tr>
+	     			</td>
+	     			
+	     		</table>
+	     		<table style="width: 100%; height: 30%; background-color: whitesmoke;">
+	     			<td colspan="6"><h1>Kids</h1></td>
+	     				<tr>
+	     					<th class="block"><img src="../images/k1.jpg" class="img_style"><p>Hansel and Gretel<br>by Rika Lesser<br>Rs.320</p></th>
+	     					<th class="block"><img src="../images/k2.jpg" class="img_style"><p>Disney The Lion King<br>(A Little Golden Book)<br>by Justine Korman Fontes<br>Rs.420</p></th>
+	     					<th class="block"><img src="../images/k3.jpg" class="img_style"><p>Disney Snow White and<br>the Seven Dwarfs<br>by Walt Disney Company <br>Rs.430</p></th>
+	     					<th class="block"><img src="../images/k4.jpg" class="img_style"><p>Walt Disney's<br>Three Little Pigs<br>by Al Dempster<br>Rs.350</p></th>
+	     					<th class="block"><img src="../images/k5.jpg" class="img_style"><p>A Song Called Home<br>by Sara Zarr<br>Rs.340</p></th>
+	     					<th class="block"><img src="../images/k6.jpg" class="img_style"><p>Where the Sky Lives<br>by Margaret Dilloway  <br>Rs.420</p></th>	     					
+	     				</tr>
+	     			</td>	     			
+	     		</table>	     			     			     		
+	     	</div>	       	
+        </div> 
+	   
+	</body>
+</html>

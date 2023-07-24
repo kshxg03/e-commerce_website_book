@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<!-- Head tag is used to create a head section of the webpage -->
+	<head>
+
+		<!-- Meta tag is used to give some meta data to the page -->
+		<meta charset="utf-8">
+    	<meta name="description" content="E-commerce webpage for a book store">
+    	<meta name="author" content="Kshitiz Shrestha">
+		
+		<!-- Title tag is used here to give a title to the webpage that is shown at the top left part of the webpage -->
+		<title>BOOKExpress/Contact</title>
+		<link rel="stylesheet" type="text/css" href="../CSS/stylesheet.css">
+
+		<!-- style tag is used to run some internal css only for this page -->
+		<style type="text/css">
+			.cell
+			{
+				width: 200px;
+				height: 200px;
+				border: 1px solid;
+			}	    	
+	    </style>
+	</head>
+
+	<!-- Body tag is used to create a body section of the webpage -->
+	<body>
+		<!-- Div tag is used to separate or define some section of the body -->
+		<div class="slide_text"><div class="slide_text2">
+    		<div class="header">
+    			<p class="header_2">! Welcome to BOOKExpress !</p>   	
+    		</div>
+
+    		<div class="header">
+    			<p class="header_2">! Over thousands of books available !</p>   	
+    		</div>
+
+    		<div class="header">
+    			<p class="header_2">! Fictions, non-fictions, journals, biographies, comics and manga's !</p>   	
+    		</div>
+        </div></div>
+    	
+        <div style="width: 70%; background-color: whitesmoke; margin: auto;">
+        	<button style="float: right; width: 80px; height: 37px; font-size: 16px; font-family: serif;">Search</button>
+	        <input class="search_txt" type="text" name="searchbox" placeholder="Search by author, title, keyword or ISBN"> 
+	        <p class="logo" style="">BOOK<span style="font-style: italic; color: #ffd166;">Express</span></p>	        
+	    </div> 
+	   	        
+	    <nav style="text-align: center;">
+	        <div style="background-color: whitesmoke; width: 100%; height: 20px; margin: auto; padding-top: 5px;">
+	            <ul>
+	        		<li class="list_style"><a href="../Home.html" class="list_style_2">Home</a> </li>
+	        		<li class="list_style"><a href="Product.html" class="list_style_2">Products</a></li>
+	        		<li class="list_style"><a href="Blog.html" class="list_style_2">Blog</a></li>
+	        		<li class="list_style"><a href="Research.html" class="list_style_2">Research</a></li>
+	        		<li class="list_style"><a href="#" class="list_style_2">Contact Us</a></li>    
+	        	</ul>       		
+	        </div>
+	    </nav>
+	    <br>
+	    <hr>
+	    
+	    <p style="font-family: fantasy; font-size: 40px; text-align: center;" >Contact Us</p>
+	    <hr>
+
+	    <div style="width: 100%; height: 100%; margin: auto; background-color: whitesmoke;">
+	    	<div style="width: 35%; height: 100%; margin: auto; background-color: whitesmoke;"> 
+	    		<form name="myform" style="align-content: center;" onsubmit="validateform()"><!-- Here, onclick used to call the function validateform() when the submit button is clicked -->
+	    			<!-- here, input tag is used to define a are where values can be inputted, usuaully a rectangular box -->
+ 					<p>First name: <input type="text" name="fname" placeholder="Kshitiz">
+ 					Last name: <input type="text" name="lname" placeholder="Shrestha"></p>
+  					<p>E-mail: <input type="text" name="Email" placeholder="abc@gmail.com" style="width: 443px;"></p>
+  					<p>Phone: <input type="text" name="Phone" placeholder="+977" style="width: 180px;">
+  					Address: <input type="text" name="Address" placeholder="Permanent" style="width: 187px;"></p> 					
+  					<p>Query: <br><textarea name="message" rows="10" cols="66" placeholder="Write a message..."></textarea></p>				
+					<p style="text-align: center;"><input type="submit" value="send"></p>
+				</form>
+
+				<!-- Here, the script tag is used to embed a client-side JavaScript -->
+				<script>
+					function validateform()
+					{
+						var fname = document.forms["myform"]["fname"].value;
+						var lname = document.forms["myform"]["lname"].value;
+
+						if (fname == "" || lname == "")
+						{
+							alert("Empty fields found! Please fill the form.");
+						}
+						else 
+						{
+							alert("Thank you for contacting us.");
+						}
+					}
+				</script>
+	    	</div>
+	    </div>			
+		<hr>
+
+			
+		
+
+	    	
+	    
+	    
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+            *
+	    	{
+	    		margin: 3px;
+	    	}
+	    	body
+	    	{
+	    		background-color: whitesmoke;
+	    	}
+	    	.slide_text
+	    	{
+	    		width: 100%;
+	    		height: 50px;
+	    		overflow: hidden;
+	    		background-color: #073b4c;
+
+	    	}
+	    	.slide_text2
+	    	{
+	    		display: flex;
+	    		position: relative;
+	    		top: 0%; right: 0%;
+	    	}
+	    	.header
+	    	{
+	    		width: 100%;
+	    		flex-shrink: 0;
+	    		
+	    	}
+	    	.header_2
+	    	{
+	    		text-align: center;
+	    		 font-size: 18px; 
+	    		 font-family: fantasy; 
+	    		 color: white; 
+	    		 padding-top: 5px;
+	    	}
+	    	@keyframes slider
+	    	{
+	    		0% {right: 0%;}
+	    		30% {right: 0%;}
+	    		33% {right: 100%;}
+	    		63% {right: 100%;}
+	    		66% {right: 200%;}
+	    		97% {right: 200%;}
+	    		100% {right: 0%;}
+	    	}
+	    	.slide_text2 
+	    	{
+	    		animation: slider linear 6s infinite;
+	    	}
+	    	.search_txt
+	        { 
+                float: right;
+	        	height: 30px;
+	        	width: 700px;
+	        	border-color: black;
+	        	border-style: solid;
+	        	border-radius: 2px;
+	        	font-family: sans-serif;
+	        	font-size: 15px;
+
+	        }
+	    	.logo
+	    	{
+	    		font-size: 40px; 
+	    		color: #003049; 
+	    		text-align: left; 
+	    		font-family: fantasy; 
+	    		text-decoration: none;
+	    	}
+	        .list_style
+	        {	    	
+	        	align-content: center;
+	        	display: inline;
+	        	font-size: 16px;        	
+	        	font-weight: 500;
+	        	font-family: "Playfair Display", serif;
+	        	padding-left: 0px;
+	        	padding-right: 100px;
+	        }
+
+	        .list_style_2
+	        {	     	
+	        	border-right: 2px solid black;
+	        	border-left: 2px solid black;
+	        	text-decoration: none;
+	        	padding-left: 30px;
+	        	padding-right: 30px;
+	        	color: black;
+	        	font-style: normal;
+            } 
+            .list_style_2:hover
+            {
+            	background-color: #003049;
+  				color: #ffd166;
+            	font-weight: bold;
+            	transition: 0.3s linear;            	         	
+            }
+            
